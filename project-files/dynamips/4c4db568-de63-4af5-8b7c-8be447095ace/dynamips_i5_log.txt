@@ -1,0 +1,40 @@
+May 08 18:51:24.105 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+May 08 18:51:24.105 HYPERVISOR: Started on IP = localhost, TCP port = 50745.
+May 08 18:51:24.125 HYPERVISOR: exec_cmd: hypervisor version 
+May 08 18:51:24.126 HYPERVISOR: exec_cmd: hypervisor working_dir /home/a/GNS3/projects/lab3/project-files/dynamips 
+May 08 18:51:24.126 GENERAL: working_dir=/home/a/GNS3/projects/lab3/project-files/dynamips
+May 08 18:51:24.126 HYPERVISOR: exec_cmd: hypervisor working_dir /home/a/GNS3/projects/lab3/project-files/dynamips/c541d1c3-9257-43f4-a6e7-ef05a4fe4cf0 
+May 08 18:51:24.126 GENERAL: working_dir=/home/a/GNS3/projects/lab3/project-files/dynamips/c541d1c3-9257-43f4-a6e7-ef05a4fe4cf0
+May 08 18:51:24.126 HYPERVISOR: exec_cmd: vm create R1 1 c3600 
+May 08 18:51:24.126 VM: VM R1 created.
+May 08 18:51:24.126 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5000 
+May 08 18:51:24.127 HYPERVISOR: exec_cmd: c3600 get_mac_addr R1 
+May 08 18:51:24.127 HYPERVISOR: exec_cmd: c3600 set_chassis R1 3620 
+May 08 18:51:24.128 HYPERVISOR: exec_cmd: vm set_ios R1 /home/a/GNS3/images/IOS/c3620-i-mz.122-40.image 
+May 08 18:51:24.128 HYPERVISOR: exec_cmd: vm get_status R1 
+May 08 18:51:24.128 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x6040a000 
+May 08 18:51:24.128 HYPERVISOR: exec_cmd: vm set_ram R1 192 
+May 08 18:51:24.129 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+May 08 18:51:24.129 HYPERVISOR: exec_cmd: vm get_status R1 
+May 08 18:51:24.129 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 0 NM-1FE-TX 
+May 08 18:51:24.185 HYPERVISOR: exec_cmd: vm set_ios R1 /home/a/GNS3/images/IOS/c3620-i-mz.122-40.image 
+May 08 18:53:29.441 HYPERVISOR: exec_cmd: vm set_ios R1 /home/a/GNS3/images/IOS/c3620-i-mz.122-40.image 
+May 08 18:57:04.835 HYPERVISOR: exec_cmd: vm set_ios R1 /home/a/GNS3/images/IOS/c3620-i-mz.122-40.image 
+May 08 18:57:05.125 HYPERVISOR: exec_cmd: vm set_ios R1 /home/a/GNS3/images/IOS/c3620-i-mz.122-40.image 
+May 08 18:57:07.975 HYPERVISOR: exec_cmd: vm set_ios R1 /home/a/GNS3/images/IOS/c3620-i-mz.122-40.image 
+May 08 19:05:49.430 HYPERVISOR: exec_cmd: vm set_ios R1 /home/a/GNS3/images/IOS/c3620-i-mz.122-40.image 
+May 08 19:05:49.430 HYPERVISOR: exec_cmd: vm rename R1 BR0 
+May 08 19:05:49.535 HYPERVISOR: exec_cmd: vm set_ios BR0 /home/a/GNS3/images/IOS/c3620-i-mz.122-40.image 
+May 08 19:08:30.804 HYPERVISOR: exec_cmd: vm get_status BR0 
+May 08 19:08:30.807 HYPERVISOR: exec_cmd: vm extract_config BR0 
+May 08 19:10:43.575 HYPERVISOR: exec_cmd: vm get_status BR0 
+May 08 19:10:43.576 HYPERVISOR: exec_cmd: vm slot_remove_binding BR0 0 0 
+May 08 19:10:43.576 HYPERVISOR: exec_cmd: vm get_status BR0 
+May 08 19:10:43.576 HYPERVISOR: exec_cmd: vm slot_add_binding BR0 0 0 NM-4E 
+May 08 19:11:07.624 HYPERVISOR: exec_cmd: vm get_status BR0 
+May 08 19:11:07.629 HYPERVISOR: exec_cmd: vm extract_config BR0 
+May 08 19:11:07.629 HYPERVISOR: exec_cmd: vm delete BR0 
+May 08 19:11:07.629 VM: VM BR0 destroyed.
+May 08 19:11:07.632 HYPERVISOR: exec_cmd: hypervisor stop 
+May 08 19:11:08.105 HYPERVISOR: Stopped.
+May 08 19:11:08.106 GENERAL: reset done.

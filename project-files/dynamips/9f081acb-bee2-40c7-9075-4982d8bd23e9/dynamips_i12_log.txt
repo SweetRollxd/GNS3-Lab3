@@ -1,0 +1,32 @@
+May 08 18:53:33.977 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+May 08 18:53:33.977 HYPERVISOR: Started on IP = localhost, TCP port = 58077.
+May 08 18:53:33.988 HYPERVISOR: exec_cmd: hypervisor version 
+May 08 18:53:33.989 HYPERVISOR: exec_cmd: hypervisor working_dir /home/a/GNS3/projects/lab3/project-files/dynamips 
+May 08 18:53:33.989 GENERAL: working_dir=/home/a/GNS3/projects/lab3/project-files/dynamips
+May 08 18:53:33.989 HYPERVISOR: exec_cmd: hypervisor working_dir /home/a/GNS3/projects/lab3/project-files/dynamips/b4927ff7-f5f2-4f33-94f5-94dd2246ed6c 
+May 08 18:53:33.989 GENERAL: working_dir=/home/a/GNS3/projects/lab3/project-files/dynamips/b4927ff7-f5f2-4f33-94f5-94dd2246ed6c
+May 08 18:53:33.989 HYPERVISOR: exec_cmd: vm create R8 8 c3600 
+May 08 18:53:33.989 VM: VM R8 created.
+May 08 18:53:33.989 HYPERVISOR: exec_cmd: vm set_con_tcp_port R8 5007 
+May 08 18:53:33.990 HYPERVISOR: exec_cmd: c3600 get_mac_addr R8 
+May 08 18:53:33.990 HYPERVISOR: exec_cmd: c3600 set_chassis R8 3620 
+May 08 18:53:33.991 HYPERVISOR: exec_cmd: vm set_ios R8 /home/a/GNS3/images/IOS/c3620-i-mz.122-40.image 
+May 08 18:53:33.991 HYPERVISOR: exec_cmd: vm get_status R8 
+May 08 18:53:33.991 HYPERVISOR: exec_cmd: vm set_idle_pc R8 0x6040a000 
+May 08 18:53:33.997 HYPERVISOR: exec_cmd: vm set_ram R8 192 
+May 08 18:53:33.997 HYPERVISOR: exec_cmd: vm set_nvram R8 256 
+May 08 18:53:33.998 HYPERVISOR: exec_cmd: vm get_status R8 
+May 08 18:53:33.998 HYPERVISOR: exec_cmd: vm slot_add_binding R8 0 0 NM-1FE-TX 
+May 08 18:53:34.097 HYPERVISOR: exec_cmd: vm set_ios R8 /home/a/GNS3/images/IOS/c3620-i-mz.122-40.image 
+May 08 19:05:29.719 HYPERVISOR: exec_cmd: vm set_ios R8 /home/a/GNS3/images/IOS/c3620-i-mz.122-40.image 
+May 08 19:05:29.720 HYPERVISOR: exec_cmd: vm rename R8 RR0 
+May 08 19:05:29.829 HYPERVISOR: exec_cmd: vm set_ios RR0 /home/a/GNS3/images/IOS/c3620-i-mz.122-40.image 
+May 08 19:08:30.878 HYPERVISOR: exec_cmd: vm get_status RR0 
+May 08 19:08:30.882 HYPERVISOR: exec_cmd: vm extract_config RR0 
+May 08 19:11:16.082 HYPERVISOR: exec_cmd: vm get_status RR0 
+May 08 19:11:16.083 HYPERVISOR: exec_cmd: vm extract_config RR0 
+May 08 19:11:16.085 HYPERVISOR: exec_cmd: vm delete RR0 
+May 08 19:11:16.085 VM: VM RR0 destroyed.
+May 08 19:11:16.085 HYPERVISOR: exec_cmd: hypervisor stop 
+May 08 19:11:16.317 HYPERVISOR: Stopped.
+May 08 19:11:16.317 GENERAL: reset done.

@@ -1,0 +1,34 @@
+May 08 18:53:07.806 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+May 08 18:53:07.806 HYPERVISOR: Started on IP = localhost, TCP port = 39245.
+May 08 18:53:07.818 HYPERVISOR: exec_cmd: hypervisor version 
+May 08 18:53:07.819 HYPERVISOR: exec_cmd: hypervisor working_dir /home/a/GNS3/projects/lab3/project-files/dynamips 
+May 08 18:53:07.819 GENERAL: working_dir=/home/a/GNS3/projects/lab3/project-files/dynamips
+May 08 18:53:07.820 HYPERVISOR: exec_cmd: hypervisor working_dir /home/a/GNS3/projects/lab3/project-files/dynamips/fe2ea4d3-fafb-466e-a168-11f0720a4ee6 
+May 08 18:53:07.820 GENERAL: working_dir=/home/a/GNS3/projects/lab3/project-files/dynamips/fe2ea4d3-fafb-466e-a168-11f0720a4ee6
+May 08 18:53:07.820 HYPERVISOR: exec_cmd: vm create R2 2 c3600 
+May 08 18:53:07.820 VM: VM R2 created.
+May 08 18:53:07.820 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5001 
+May 08 18:53:07.820 HYPERVISOR: exec_cmd: c3600 get_mac_addr R2 
+May 08 18:53:07.820 HYPERVISOR: exec_cmd: c3600 set_chassis R2 3620 
+May 08 18:53:07.821 HYPERVISOR: exec_cmd: vm set_ios R2 /home/a/GNS3/images/IOS/c3620-i-mz.122-40.image 
+May 08 18:53:07.821 HYPERVISOR: exec_cmd: vm get_status R2 
+May 08 18:53:07.821 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x6040a000 
+May 08 18:53:07.822 HYPERVISOR: exec_cmd: vm set_ram R2 192 
+May 08 18:53:07.822 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+May 08 18:53:07.822 HYPERVISOR: exec_cmd: vm get_status R2 
+May 08 18:53:07.823 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 0 NM-1FE-TX 
+May 08 18:53:07.867 HYPERVISOR: exec_cmd: vm set_ios R2 /home/a/GNS3/images/IOS/c3620-i-mz.122-40.image 
+May 08 18:56:57.952 HYPERVISOR: exec_cmd: vm set_ios R2 /home/a/GNS3/images/IOS/c3620-i-mz.122-40.image 
+May 08 18:57:02.015 HYPERVISOR: exec_cmd: vm set_ios R2 /home/a/GNS3/images/IOS/c3620-i-mz.122-40.image 
+May 08 19:06:02.712 HYPERVISOR: exec_cmd: vm set_ios R2 /home/a/GNS3/images/IOS/c3620-i-mz.122-40.image 
+May 08 19:06:02.712 HYPERVISOR: exec_cmd: vm rename R2 BR2 
+May 08 19:06:02.821 HYPERVISOR: exec_cmd: vm set_ios BR2 /home/a/GNS3/images/IOS/c3620-i-mz.122-40.image 
+May 08 19:08:30.797 HYPERVISOR: exec_cmd: vm get_status BR2 
+May 08 19:08:30.804 HYPERVISOR: exec_cmd: vm extract_config BR2 
+May 08 19:11:07.609 HYPERVISOR: exec_cmd: vm get_status BR2 
+May 08 19:11:07.612 HYPERVISOR: exec_cmd: vm extract_config BR2 
+May 08 19:11:07.614 HYPERVISOR: exec_cmd: vm delete BR2 
+May 08 19:11:07.614 VM: VM BR2 destroyed.
+May 08 19:11:07.618 HYPERVISOR: exec_cmd: hypervisor stop 
+May 08 19:11:07.725 HYPERVISOR: Stopped.
+May 08 19:11:07.725 GENERAL: reset done.
